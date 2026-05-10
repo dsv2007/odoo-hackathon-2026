@@ -1,40 +1,134 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Traveloop AI 🌍✈️
 
-## Getting Started
+Traveloop AI is an AI-powered travel planning platform developed for the Odoo Hackathon 2026. The platform helps users generate personalized travel itineraries, manage trips, organize packing checklists, and estimate travel budgets through a modern and responsive web application.
 
-First, run the development server:
+---
+
+# 🚀 Features
+
+* 🔐 User Authentication with Supabase
+* 🤖 AI Travel Itinerary Generation
+* 🧳 Packing Checklist Management
+* 💰 Budget Planning System
+* 📍 Trip Management
+* 🗺 Detailed Itinerary View
+* 👤 User Profile Section
+* 📱 Responsive Modern UI
+
+---
+
+# 🛠 Tech Stack
+
+Frontend:
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+
+Backend & Database:
+
+* Supabase
+
+AI Integration:
+
+* OpenAI / AI-based itinerary generation
+
+---
+
+# 📂 Project Structure
+
+```bash
+app/
+│
+├── login/
+├── signup/
+├── dashboard/
+├── my-trips/
+├── itinerary-view/
+├── packing/
+├── budget/
+├── profile/
+├── api/
+│   └── ai/
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/dsv2007/odoo-hackathon-2026.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd odoo-hackathon-2026
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🔑 Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Create a `.env.local` file and add:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
-## Deploy on Vercel
+GEMINI_API_KEY=your_api_key
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# odoo-hackathon-2026
->>>>>>> 63588fa38cbfc9e7cd389b2822f51e7b55294d80
+# 🎯 Objectives
+
+The goal of Traveloop AI is to simplify travel planning using AI-driven automation and provide users with an organized and efficient travel management experience.
+
+---
+
+# 📸 Screens Included
+
+* Home Page
+* Signup Page
+* Login Page
+* Dashboard
+* AI Itinerary Generator
+* My Trips
+* Itinerary View
+* Packing Checklist
+* Budget Planner
+* Profile Page
+
+---
+
+# 👩‍💻 Developed By
+
+Santhivarshini D
+
+---
+
+# 🔗 GitHub Repository
+
+https://github.com/dsv2007/odoo-hackathon-2026
